@@ -1,0 +1,38 @@
+html, body {
+    /*height: 100%;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    overflow: hidden;
+}
+
+#map_canvas {
+    width: 100%;
+}
+
+#provinceList {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.row{
+    height: 100%;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.image {
+    position: relative;
+    width: 100%; /* for IE 6 */
+}
+
+h2 {
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
