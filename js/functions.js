@@ -15,9 +15,13 @@ let HEADER = (xhr) => xhr.setRequestHeader('Accept', 'application/json');
  */
 let resizeDiv = () => {
     let x = $(window).height();
+    let y = $('.col-md-8').width();
+    
+    let el = $('#map_canvas');
 
     $('#provinceList').css({'height': x + 'px'});
-    $('#map_canvas').css({'height': x + 'px'});
+    el.css({'height': x + 'px'});
+    el.css({'width': y + 'px'})
 };
 
 
