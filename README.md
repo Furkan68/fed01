@@ -10,6 +10,7 @@ Ik heb een app gebouwd waarmee ik de provincies van Turkije met de burgemeesters
 Ik heb het met backbone gebouwt en een backbone extension voor google maps.
 <br>
 __[Link](https://github.com/eschwartz/backbone.googlemaps) naar extension__
+<br>
 __[Link](https://wireframe.cc/7KIGbW) naar wireframe__
 <br><br>
 
